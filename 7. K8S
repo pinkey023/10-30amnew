@@ -325,7 +325,7 @@ metadata:
 spec:
   containers:
     - name: cont1
-      image: rahamshaik/phonepaymovies:v1
+      image: niroopa12/phonpay1-trans:latest
       ports:
       - containerPort: 80
 
@@ -354,7 +354,7 @@ metadata:
 spec:
   containers:
     - name: cont1
-      image: rahamshaik/phonepaymovies:v1
+      image: niroopa12/phonpay1-trans:latest 
       ports:
       - containerPort: 80
 
@@ -383,8 +383,8 @@ metadata:
     app: phonepay
 spec:
   containers:
-    - name: cont1
-      image: rahamshaik/phonepaymovies:v1
+    - name: cont1 
+      image: niroopa12/phonpay1-trans:latest
       ports:
       - containerPort: 80
 
